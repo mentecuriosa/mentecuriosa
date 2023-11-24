@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playpen+Sans:wght@200&family=Poppins:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playpen+Sans:wght@200&family=Poppins:wght@500&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'poppins';
+    max-width: 1200px;
+    background-color: #02182B;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #eeff00;
+    transition: .3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #eeff00;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #eeff00;
+    color: black;
+    
+}
+
+
+
+h2 {
+    font-size: 3rem;
+    line-height: 10px;
+}
+
+span {
+    color: #eeff00; 
+    font-weight: 1000;
+}
+
+p {
+    padding-top: 40px;
+    font-size: 1.6rem;
+    line-height: 30px;
+    max-width: 500px;
+}
+
+#purple {
+    width: 500px;
+    margin-left: 50px;
+}
+
+aside a {
+    font-size: 1.7rem;
+    border: 2px solid #eeff00;
+    padding:5px 10px;
+    border-radius: 15px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cta p {
+    font-size: 1rem;
+    line-height: 14px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+}
+
+aside a:hover {
+    color: black;
+    background-color: #eeff00;
+    transition: .4s;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 500px;
+}
+
+#beneficios {
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    border-radius: 5px;
+}
+.beneficios{
+    margin-top: -50px;
+    display:flex;
+    flex-direction: column;
+    margin-right: 230px;
+    width: 600px;
+}
+
+.beneficios-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios-top h1 {
+    font-size: 2.5rem;
+    margin-bottom: -20px;
+}
+
+.beneficios-top p {
+    font-size: 1rem;
+}
+
+.beneficios-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios-one h4 {
+    margin-bottom: -40px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    box-shadow: 1px 1px #eeff00;
+}
+
+.beneficios-one p {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.beneficios-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios-two h4 {
+    margin-bottom: -40px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    box-shadow: 1px 1px #eeff00;
+}
+
+.beneficios-two p {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+.beneficios a{
+    margin: 10px 10px ;
+}
+

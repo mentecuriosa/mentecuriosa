@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playpen+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --oxforblue: #02182B;
+    --dodgerblue: #0197F6;
+    --bluemunsell: #0197A8;
+    --crimson: #D7263D;
+    --pretofosco: #313131;
+}
+
+body {
+    background-color:var(--oxforblue);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.logo {
+    position: relative;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    color: #fff;
+    text-decoration: none;
+    top: 30%;
+    right: 5.4%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:var(--oxforblue);
+    height: 8vh;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+    margin-left: 32px;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+section {
+    padding: 3rem;
+}
+
+input {
+    display: none;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+#texto-1 {
+        position: relative;
+        font-size: 3em;
+        left: 1%;
+        top: 20%;
+        font-weight: 1000;
+        color: var(--oxforblue) ;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 3px 3px white;
+        
+}
+
+.letras-1 {
+    left: 1%;
+    top: 2%;
+    position: relative;
+    width: 500px;
+}
+
+#texto-2 {
+    position: relative;
+    font-size: 3em;
+    left: 2%;
+    top: 2%;
+    color: #02182B;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px white;
+}
+
+.letras-2 {
+    left: 2%;
+    top: 2%;
+    position: relative;
+    width: 500px;
+}
+
+#texto-3 {
+    position: relative;
+    font-size: 3em;
+  
+    font-weight: 1000;
+    justify-content: JUSTIFY;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px white;
+}
+
+.letras-3 {
+    left: 2%;
+    top: 2%;
+    width: 500px;
+    position: relative;
+}
+
+label strong {
+    color: #48b8fd;
+    text-decoration: underline;
+    text-shadow: 3px 3px black;
+}
+
+#texto-4 {
+    position: relative;
+    font-size: 3em;
+    left: 50%;
+    top: 3%;
+    color: #2a2733;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px white;
+}
+
+.letras-4 {
+    left: -17%;
+    top: 2%;
+    position: relative;
+    width: 500px;
+}
+
+#texto-4 strong {
+    color: #ffffff;
+    font-size: 3rem;
+    text-shadow: 4px 4px black;
+}
+
+.auto-navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra {
+    width: 70px;
+    height: 17px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.barra:hover{
+    background-color: #d8d7d7;
+    transition: .6s;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    
+}
+
+.slide {
+    width: 25%;
+    transition: .9s;
+
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+.second-section {
+    background-color: #f8f8f8;
+}
+
+.div-pai {
+display: flex;
+justify-content: space-around;
+
+}
+
+.quem-somos {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 30em;
+    margin-right: 2rem;
+    background-color: #e2e2e2;
+}
+
+.quem-somos p {
+    font-size: 2.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justif;
+}
+
+#quem-somos {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02182B;
+    color: #fff;
+    padding-bottom: 10%;
+    font-size: 2em;
+}
+
+#quem-somos h3 {
+    position: relative;
+    left: 10%;
+    top: 40%;
+}
+
+.sobre-nos {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-right: 2rem;
+    background-color: #e2e2e2;
+}
+
+#sobre-nos {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02182B;
+    color: #fff;
+    padding-bottom: 10%;
+    font-size: 2em;
+}
+
+#sobre-nos h3 {
+    position: relative;
+    left: 10%;
+    top: 40%;
+}
+
+.sobre-nos p{
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: star
+}
+
+.objetivo {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-right: 2rem;
+    background-color: #e2e2e2;
+    
+}
+
+#objetivo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02182B;
+    color: #fff;
+    padding-bottom: 10%;
+    font-size: 2em;
+}
+
+#objetivo h3 {
+    position: relative;
+    left: 10%;
+    top: 40%;
+}
+
+.objetivo p {
+    font-size: 2.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > div {
+    background-color:var(--oxforblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contato h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+#whats {
+    color: green;
+}
+
+#insta {
+    color: lightpink;
+}
+
+#face {
+    color: #0197F6;
+}
+
+#linkedin {
+    color: blue;
+}
